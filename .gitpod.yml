@@ -5,5 +5,4 @@
 tasks:
   - init: npm install && yarn build
     command: npx prettier dist/preact.mjs --write
-
-
+  - init: cd demo && npm install && yarn build
