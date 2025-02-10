@@ -43,5 +43,8 @@ export default defineConfig({
 	esbuild: {
 		jsx: 'automatic',
 		jsxImportSource: 'preact'
+	},
+	build: {
+		minify: false
 	}
 });
